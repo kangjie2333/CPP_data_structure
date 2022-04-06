@@ -2,22 +2,21 @@
  * @Descripttion: 
  * @version: 
  * @Author: KJ
- * @Date: 2022-03-28 21:31:18
+ * @Date: 2022-04-06 22:11:40
  * @LastEditors: KJ
- * @LastEditTime: 2022-04-05 21:08:11
+ * @LastEditTime: 2022-04-06 22:22:52
  */
-// 数组Array
-#include <iostream>
+#include "VectorDemo.h"
 #include <vector>
-#include<algorithm>
+#include <algorithm>
 
-using namespace std;
-
+// 降序
 bool Comp(const int& a, const int& b){
     return a > b;
 }
 
-int main(){
+// vector向量使用
+void vector_demo(){
     // 创建vector
     vector<int> vec1; // 创建一个空的vector
     vector<int> vec2(10); // 创建一个10元素的vector,初始为0
@@ -72,5 +71,4 @@ int main(){
     // 排序
     sort(vec6.begin(), vec6.end());
     sort(vec6.begin(), vec6.end(),Comp);
-    return 0;
 }
