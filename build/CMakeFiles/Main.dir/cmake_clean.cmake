@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj.d"
   "CMakeFiles/Main.dir/src/DequeDemo.cpp.obj"
   "CMakeFiles/Main.dir/src/DequeDemo.cpp.obj.d"
+  "CMakeFiles/Main.dir/src/ListDemo.cpp.obj"
+  "CMakeFiles/Main.dir/src/ListDemo.cpp.obj.d"
   "CMakeFiles/Main.dir/src/Main.cpp.obj"
   "CMakeFiles/Main.dir/src/Main.cpp.obj.d"
   "CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"
