@@ -152,6 +152,30 @@ src/ArrayDemo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/ArrayDemo.cpp.s
 .PHONY : src/ArrayDemo.cpp.s
 
+src/DequeDemo.obj: src/DequeDemo.cpp.obj
+.PHONY : src/DequeDemo.obj
+
+# target to build an object file
+src/DequeDemo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/DequeDemo.cpp.obj
+.PHONY : src/DequeDemo.cpp.obj
+
+src/DequeDemo.i: src/DequeDemo.cpp.i
+.PHONY : src/DequeDemo.i
+
+# target to preprocess a source file
+src/DequeDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/DequeDemo.cpp.i
+.PHONY : src/DequeDemo.cpp.i
+
+src/DequeDemo.s: src/DequeDemo.cpp.s
+.PHONY : src/DequeDemo.s
+
+# target to generate assembly for a file
+src/DequeDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/DequeDemo.cpp.s
+.PHONY : src/DequeDemo.cpp.s
+
 src/Main.obj: src/Main.cpp.obj
 .PHONY : src/Main.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... src/ArrayDemo.obj
 	@echo ... src/ArrayDemo.i
 	@echo ... src/ArrayDemo.s
+	@echo ... src/DequeDemo.obj
+	@echo ... src/DequeDemo.i
+	@echo ... src/DequeDemo.s
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s

@@ -6,6 +6,11 @@
 },
 {
   "directory": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/build",
+  "command": "g++  @CMakeFiles/Main.dir/includes_CXX.rsp -g -o CMakeFiles\\Main.dir\\src\\DequeDemo.cpp.obj -c C:\\Users\\KJ\\Desktop\\CPP_Practice\\CPP_data_structure\\src\\DequeDemo.cpp",
+  "file": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/src/DequeDemo.cpp"
+},
+{
+  "directory": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/build",
   "command": "g++  @CMakeFiles/Main.dir/includes_CXX.rsp -g -o CMakeFiles\\Main.dir\\src\\Main.cpp.obj -c C:\\Users\\KJ\\Desktop\\CPP_Practice\\CPP_data_structure\\src\\Main.cpp",
   "file": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/src/Main.cpp"
 },
