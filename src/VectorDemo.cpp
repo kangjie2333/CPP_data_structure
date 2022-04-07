@@ -16,7 +16,7 @@ bool Comp(const int& a, const int& b){
 }
 
 // vector向量使用
-void vector_demo(){
+void VectorDemo(){
     // 创建vector
     vector<int> vec1; // 创建一个空的vector
     vector<int> vec2(10); // 创建一个10元素的vector,初始为0
