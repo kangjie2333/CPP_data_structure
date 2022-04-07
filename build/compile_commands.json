@@ -21,6 +21,11 @@
 },
 {
   "directory": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/build",
+  "command": "g++  @CMakeFiles/Main.dir/includes_CXX.rsp -g -o CMakeFiles\\Main.dir\\src\\PriorityQueueDemo.cpp.obj -c C:\\Users\\KJ\\Desktop\\CPP_Practice\\CPP_data_structure\\src\\PriorityQueueDemo.cpp",
+  "file": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/src/PriorityQueueDemo.cpp"
+},
+{
+  "directory": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/build",
   "command": "g++  @CMakeFiles/Main.dir/includes_CXX.rsp -g -o CMakeFiles\\Main.dir\\src\\VectorDemo.cpp.obj -c C:\\Users\\KJ\\Desktop\\CPP_Practice\\CPP_data_structure\\src\\VectorDemo.cpp",
   "file": "C:/Users/KJ/Desktop/CPP_Practice/CPP_data_structure/src/VectorDemo.cpp"
 }

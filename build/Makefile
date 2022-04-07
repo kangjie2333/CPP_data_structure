@@ -224,6 +224,30 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/PriorityQueueDemo.obj: src/PriorityQueueDemo.cpp.obj
+.PHONY : src/PriorityQueueDemo.obj
+
+# target to build an object file
+src/PriorityQueueDemo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/PriorityQueueDemo.cpp.obj
+.PHONY : src/PriorityQueueDemo.cpp.obj
+
+src/PriorityQueueDemo.i: src/PriorityQueueDemo.cpp.i
+.PHONY : src/PriorityQueueDemo.i
+
+# target to preprocess a source file
+src/PriorityQueueDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/PriorityQueueDemo.cpp.i
+.PHONY : src/PriorityQueueDemo.cpp.i
+
+src/PriorityQueueDemo.s: src/PriorityQueueDemo.cpp.s
+.PHONY : src/PriorityQueueDemo.s
+
+# target to generate assembly for a file
+src/PriorityQueueDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/PriorityQueueDemo.cpp.s
+.PHONY : src/PriorityQueueDemo.cpp.s
+
 src/VectorDemo.obj: src/VectorDemo.cpp.obj
 .PHONY : src/VectorDemo.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
+	@echo ... src/PriorityQueueDemo.obj
+	@echo ... src/PriorityQueueDemo.i
+	@echo ... src/PriorityQueueDemo.s
 	@echo ... src/VectorDemo.obj
 	@echo ... src/VectorDemo.i
 	@echo ... src/VectorDemo.s

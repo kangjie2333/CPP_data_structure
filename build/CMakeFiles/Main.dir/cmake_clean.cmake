@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Main.dir/src/ListDemo.cpp.obj.d"
   "CMakeFiles/Main.dir/src/Main.cpp.obj"
   "CMakeFiles/Main.dir/src/Main.cpp.obj.d"
+  "CMakeFiles/Main.dir/src/PriorityQueueDemo.cpp.obj"
+  "CMakeFiles/Main.dir/src/PriorityQueueDemo.cpp.obj.d"
   "CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"
   "CMakeFiles/Main.dir/src/VectorDemo.cpp.obj.d"
 )
