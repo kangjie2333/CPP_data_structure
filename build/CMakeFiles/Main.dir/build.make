@@ -68,11 +68,26 @@ include CMakeFiles/Main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Main.dir/flags.make
 
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj: CMakeFiles/Main.dir/includes_CXX.rsp
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj: ../src/ArrayDemo.cpp
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj: CMakeFiles/Main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj -MF CMakeFiles\Main.dir\src\ArrayDemo.cpp.obj.d -o CMakeFiles\Main.dir\src\ArrayDemo.cpp.obj -c C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\src\ArrayDemo.cpp
+
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/src/ArrayDemo.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\src\ArrayDemo.cpp > CMakeFiles\Main.dir\src\ArrayDemo.cpp.i
+
+CMakeFiles/Main.dir/src/ArrayDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/src/ArrayDemo.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\src\ArrayDemo.cpp -o CMakeFiles\Main.dir\src\ArrayDemo.cpp.s
+
 CMakeFiles/Main.dir/src/Main.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/src/Main.cpp.obj: CMakeFiles/Main.dir/includes_CXX.rsp
 CMakeFiles/Main.dir/src/Main.cpp.obj: ../src/Main.cpp
 CMakeFiles/Main.dir/src/Main.cpp.obj: CMakeFiles/Main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/src/Main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main.dir/src/Main.cpp.obj"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/src/Main.cpp.obj -MF CMakeFiles\Main.dir\src\Main.cpp.obj.d -o CMakeFiles\Main.dir\src\Main.cpp.obj -c C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\src\Main.cpp
 
 CMakeFiles/Main.dir/src/Main.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/Main.dir/src/VectorDemo.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/src/VectorDemo.cpp.obj: CMakeFiles/Main.dir/includes_CXX.rsp
 CMakeFiles/Main.dir/src/VectorDemo.cpp.obj: ../src/VectorDemo.cpp
 CMakeFiles/Main.dir/src/VectorDemo.cpp.obj: CMakeFiles/Main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/src/VectorDemo.cpp.obj -MF CMakeFiles\Main.dir\src\VectorDemo.cpp.obj.d -o CMakeFiles\Main.dir\src\VectorDemo.cpp.obj -c C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\src\VectorDemo.cpp
 
 CMakeFiles/Main.dir/src/VectorDemo.cpp.i: cmake_force
@@ -100,19 +115,21 @@ CMakeFiles/Main.dir/src/VectorDemo.cpp.s: cmake_force
 
 # Object files for target Main
 Main_OBJECTS = \
+"CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj" \
 "CMakeFiles/Main.dir/src/Main.cpp.obj" \
 "CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
+../bin/Main.exe: CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj
 ../bin/Main.exe: CMakeFiles/Main.dir/src/Main.cpp.obj
 ../bin/Main.exe: CMakeFiles/Main.dir/src/VectorDemo.cpp.obj
 ../bin/Main.exe: CMakeFiles/Main.dir/build.make
 ../bin/Main.exe: CMakeFiles/Main.dir/linklibs.rsp
 ../bin/Main.exe: CMakeFiles/Main.dir/objects1.rsp
 ../bin/Main.exe: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\bin\Main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\KJ\Desktop\CPP_Practice\CPP_data_structure\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\bin\Main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

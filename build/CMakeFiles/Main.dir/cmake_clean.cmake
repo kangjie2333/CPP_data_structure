@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../bin/Main.exe.manifest"
   "../bin/Main.pdb"
   "../bin/libMain.dll.a"
+  "CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj"
+  "CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj.d"
   "CMakeFiles/Main.dir/src/Main.cpp.obj"
   "CMakeFiles/Main.dir/src/Main.cpp.obj.d"
   "CMakeFiles/Main.dir/src/VectorDemo.cpp.obj"

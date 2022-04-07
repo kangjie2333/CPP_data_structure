@@ -128,6 +128,30 @@ Main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
+src/ArrayDemo.obj: src/ArrayDemo.cpp.obj
+.PHONY : src/ArrayDemo.obj
+
+# target to build an object file
+src/ArrayDemo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/ArrayDemo.cpp.obj
+.PHONY : src/ArrayDemo.cpp.obj
+
+src/ArrayDemo.i: src/ArrayDemo.cpp.i
+.PHONY : src/ArrayDemo.i
+
+# target to preprocess a source file
+src/ArrayDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/ArrayDemo.cpp.i
+.PHONY : src/ArrayDemo.cpp.i
+
+src/ArrayDemo.s: src/ArrayDemo.cpp.s
+.PHONY : src/ArrayDemo.s
+
+# target to generate assembly for a file
+src/ArrayDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/ArrayDemo.cpp.s
+.PHONY : src/ArrayDemo.cpp.s
+
 src/Main.obj: src/Main.cpp.obj
 .PHONY : src/Main.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Main
+	@echo ... src/ArrayDemo.obj
+	@echo ... src/ArrayDemo.i
+	@echo ... src/ArrayDemo.s
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
